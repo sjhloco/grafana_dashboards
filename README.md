@@ -2,8 +2,9 @@
 
 Some custom dashboards created for various purposes. Rather than reinventing the wheel the majority of them are based off ones I found in the Grafana market place with tweaks to make them work with my data.
 
-- **Network Monitoring** (Influxdb with telegraf plugins): Monitors HTTP requests, DNS queries and ICMP (RTT, latency, packet loss)
+- **Network Monitoring** (*Influxdb with telegraf plugins*): Monitors HTTP requests, DNS queries and ICMP (RTT, latency, packet loss)
 
+![Image](https://github.com/user-attachments/assets/a2f1a5c2-9164-42f9-b79e-bf8fdbd50a6e)
 
 
 
