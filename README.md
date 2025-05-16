@@ -6,9 +6,14 @@ Some custom dashboards created for various purposes. Rather than reinventing the
 
 <img width="960" alt="Image" src="https://github.com/user-attachments/assets/5b9a1dff-30da-4092-8abd-8abcef76dce5" />
 
-- **Server (phone) Monitoring** *Prometheus with node-exporter* | Monitors oneplus phone running pmOS, includes battery, CPU, Memory, Disk and networking (based off dashboard 1860)
+- **Server (phone) Monitoring** (*Prometheus with node-exporter*): Monitors OnePlus phone running pmOS, includes battery, CPU, Memory, Disk and networking (based off dashboard 1860)
 
 <img width="960" alt="Image" src="https://github.com/user-attachments/assets/f4dcabd5-8e98-438d-a7e1-166a23ecbf91" />
+
+- **Prometheus Scraping** (*Prometheus*): Scrape instances and times for troubleshooting prometheus metric collection (based off dashboard 10876 )
+
+- **K3s Node and Pod Monitoring** (*Prometheus with node-exporter*): Monitors CPU, load, Memory, disk and networking of K3s nodes and pods as well as the same details and processes for the individual K3s pods and namespaces (based off dashboards 8171 and 19972)
+
 
 
 <!-- | Name | Grafana ID | Data source | Description |
