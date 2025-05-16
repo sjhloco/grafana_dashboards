@@ -4,8 +4,9 @@ Some custom dashboards created for various purposes. Rather than reinventing the
 
 - **Network Monitoring** (*Influxdb with telegraf plugins*): Monitors HTTP requests, DNS queries and ICMP (RTT, latency, packet loss)
 
-![Image](https://github.com/user-attachments/assets/a2f1a5c2-9164-42f9-b79e-bf8fdbd50a6e)
 
+
+- **Server (phone) Monitoring** *Prometheus with node-exporter* | Monitors oneplus phone running pmOS, includes battery, CPU, Memory, Disk and networking (based off dashboard 1860)
 
 
 
