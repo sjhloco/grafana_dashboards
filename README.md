@@ -12,8 +12,11 @@ Some custom dashboards created for various purposes. Rather than reinventing the
 
 - **Prometheus Scraping** (*Prometheus*): Scrape instances and times for troubleshooting prometheus metric collection (based off dashboard 10876 )
 
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/d068cc8f-4e6e-4af3-9fe7-9715089415b8" />
+
 - **K3s Node and Pod Monitoring** (*Prometheus with node-exporter*): Monitors CPU, load, Memory, disk and networking of K3s nodes and pods as well as the same details and processes for the individual K3s pods and namespaces (based off dashboards 8171 and 19972)
 
+![Image](https://github.com/user-attachments/assets/9c3ec749-0b6b-41be-afe3-28bfcfbda0b7)
 
 
 <!-- | Name | Grafana ID | Data source | Description |
