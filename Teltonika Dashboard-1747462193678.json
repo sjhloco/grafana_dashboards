@@ -1,53 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMETHEUS",
-      "label": "prometheus",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
-  "__elements": {},
-  "__requires": [
-    {
-      "type": "panel",
-      "id": "gauge",
-      "name": "Gauge",
-      "version": ""
-    },
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "11.6.0"
-    },
-    {
-      "type": "datasource",
-      "id": "prometheus",
-      "name": "Prometheus",
-      "version": "1.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "stat",
-      "name": "Stat",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "table",
-      "name": "Table",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "timeseries",
-      "name": "Time series",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -68,13 +19,13 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": null,
+  "id": 6,
   "links": [],
   "panels": [
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "",
       "fieldConfig": {
@@ -156,7 +107,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mSignal{instance=\"$instance\",job=\"$job\"}",
@@ -168,7 +119,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mSINR{instance=\"$instance\",job=\"$job\"}",
@@ -181,7 +132,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mRSRP{instance=\"$instance\",job=\"$job\"}",
@@ -194,7 +145,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mRSRQ{instance=\"$instance\",job=\"$job\"}",
@@ -211,7 +162,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Connection Status",
       "fieldConfig": {
@@ -277,7 +228,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -307,7 +258,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "",
       "fieldConfig": {
@@ -373,7 +324,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mOperator{instance=\"$instance\",job=\"$job\"}",
@@ -402,7 +353,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Connection Uptime",
       "fieldConfig": {
@@ -468,7 +419,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "connectionUptime{instance=\"$instance\",job=\"$job\"}",
@@ -485,7 +436,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Registration Status",
       "fieldConfig": {
@@ -551,7 +502,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mNetState{instance=\"$instance\",job=\"$job\"}",
@@ -580,7 +531,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Received signal strength indication",
       "fieldConfig": {
@@ -645,7 +596,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -662,7 +613,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Reference Signal Received Power",
       "fieldConfig": {
@@ -723,7 +674,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -740,7 +691,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Reference Signal Received Quality",
       "fieldConfig": {
@@ -801,7 +752,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -818,7 +769,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Signal to Interference plus Noise Ratio",
       "fieldConfig": {
@@ -879,7 +830,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -896,7 +847,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Busy state of all CPU cores together",
       "fieldConfig": {
@@ -962,7 +913,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "100-ssCpuIdle{instance=\"$instance\",job=\"$job\"}",
@@ -981,7 +932,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Sysload (1m avg)",
       "fieldConfig": {
@@ -1047,7 +998,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -1070,7 +1021,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Sysload (5m avg)",
       "fieldConfig": {
@@ -1136,7 +1087,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -1159,7 +1110,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Sysload (15m avg)",
       "fieldConfig": {
@@ -1225,7 +1176,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -1248,7 +1199,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Used flash memory",
       "fieldConfig": {
@@ -1307,7 +1258,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageUsed{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}/hrStorageSize{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}",
@@ -1326,7 +1277,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Used flash memory",
       "fieldConfig": {
@@ -1385,7 +1336,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageUsed{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/tmp\"}/hrStorageSize{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/tmp\"}",
@@ -1404,7 +1355,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "RAM memory used",
       "fieldConfig": {
@@ -1463,7 +1414,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "1-(memAvailReal{instance=\"$instance\",job=\"$job\"}/memTotalReal{instance=\"$instance\",job=\"$job\"})\n",
@@ -1482,7 +1433,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Temperature",
       "fieldConfig": {
@@ -1554,7 +1505,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "builder",
           "expr": "mTemperature{instance=\"$instance\", job=~\"$job\"}/10",
@@ -1573,7 +1524,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "fieldConfig": {
         "defaults": {
@@ -1682,7 +1633,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "irate(ifHCOutOctets{job=\"$job\",instance=\"$instance\"}[5m])",
@@ -1694,7 +1645,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "-irate(ifHCInOctets{job=\"$job\",instance=\"$instance\"}[5m])",
@@ -1710,7 +1661,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Connection Type",
       "fieldConfig": {
@@ -1776,7 +1727,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mNetworkType{instance=\"$instance\",job=\"$job\"}",
@@ -1805,7 +1756,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Total RootFS",
       "fieldConfig": {
@@ -1875,7 +1826,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageAllocationUnits{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}*hrStorageUsed{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}",
@@ -1893,7 +1844,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Mem Used",
       "fieldConfig": {
@@ -1963,7 +1914,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageAllocationUnits{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}*hrStorageUsed{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}",
@@ -1982,7 +1933,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "System uptime",
       "fieldConfig": {
@@ -2048,7 +1999,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrSystemUptime{instance=\"$instance\",job=\"$job\"}/100",
@@ -2064,7 +2015,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "# of Cores",
       "fieldConfig": {
@@ -2130,7 +2081,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "ssCpuNumCpus{instance=\"$instance\",job=\"$job\"}",
@@ -2146,7 +2097,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Total RootFS",
       "fieldConfig": {
@@ -2216,7 +2167,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageAllocationUnits{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}*hrStorageSize{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"/\"}",
@@ -2234,7 +2185,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Total RAM",
       "fieldConfig": {
@@ -2300,7 +2251,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "memTotalReal{instance=\"$instance\",job=\"$job\"}*1024",
@@ -2316,7 +2267,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "Total SWAP",
       "fieldConfig": {
@@ -2382,7 +2333,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "memTotalSwap{instance=\"$instance\",job=\"$job\"}",
@@ -2398,7 +2349,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "fieldConfig": {
         "defaults": {
@@ -2481,7 +2432,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "100-ssCpuIdle{instance=\"$instance\",job=\"$job\"}",
@@ -2491,12 +2442,13 @@
           "refId": "A"
         }
       ],
+      "title": "",
       "type": "timeseries"
     },
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "description": "",
       "fieldConfig": {
@@ -2597,7 +2549,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageSize{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}*hrStorageAllocationUnits{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}",
@@ -2609,7 +2561,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "hrStorageAllocationUnits{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}*hrStorageUsed{instance=\"$instance\",job=\"$job\",hrStorageDescr=\"Physical memory\"}",
@@ -2620,12 +2572,13 @@
           "refId": "B"
         }
       ],
+      "title": "",
       "type": "timeseries"
     },
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "fieldConfig": {
         "defaults": {
@@ -2706,7 +2659,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "expr": "mTemperature{instance=\"$instance\", job=~\"$job\"}/10",
@@ -2722,7 +2675,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "P1809F7CD0C75ACF3"
       },
       "fieldConfig": {
         "defaults": {
@@ -2777,7 +2730,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2791,7 +2744,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2806,7 +2759,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2821,7 +2774,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2836,7 +2789,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2851,7 +2804,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2866,7 +2819,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2881,7 +2834,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2896,7 +2849,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2911,7 +2864,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2926,7 +2879,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2941,7 +2894,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2956,7 +2909,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2971,7 +2924,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2986,7 +2939,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3001,7 +2954,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3016,7 +2969,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3031,7 +2984,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3046,7 +2999,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3061,7 +3014,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -3074,6 +3027,7 @@
           "refId": "T"
         }
       ],
+      "title": "",
       "transformations": [
         {
           "id": "filterFieldsByName",
@@ -3176,6 +3130,7 @@
       "type": "table"
     }
   ],
+  "preload": false,
   "refresh": "30s",
   "schemaVersion": 41,
   "tags": [
@@ -3187,10 +3142,13 @@
   "templating": {
     "list": [
       {
-        "current": {},
+        "current": {
+          "text": "snmp_teltonika",
+          "value": "snmp_teltonika"
+        },
         "datasource": {
           "type": "prometheus",
-          "uid": "${DS_PROMETHEUS}"
+          "uid": "P1809F7CD0C75ACF3"
         },
         "definition": "label_values(ifInOctets,job)",
         "includeAll": false,
@@ -3207,10 +3165,13 @@
         "type": "query"
       },
       {
-        "current": {},
+        "current": {
+          "text": "10.40.10.1",
+          "value": "10.40.10.1"
+        },
         "datasource": {
           "type": "prometheus",
-          "uid": "${DS_PROMETHEUS}"
+          "uid": "P1809F7CD0C75ACF3"
         },
         "definition": "label_values(mImei{job=\"$job\"},instance)",
         "includeAll": false,
@@ -3236,6 +3197,5 @@
   "timezone": "",
   "title": "Teltonika Dashboard",
   "uid": "fed51e81-3115-4021-8b2a-1cdbb7f9f618",
-  "version": 4,
-  "weekStart": ""
+  "version": 2
 }

@@ -10,7 +10,7 @@ Some custom dashboards created for various purposes. Rather than reinventing the
 
 <img width="960" alt="Image" src="https://github.com/user-attachments/assets/f4dcabd5-8e98-438d-a7e1-166a23ecbf91" />
 
-- **Prometheus Scraping** (*Prometheus*): Scrape instances and times for troubleshooting prometheus metric collection (based off dashboard 10876 )
+- **Prometheus Scraping** (*Prometheus*): Scrape instances and times for troubleshooting prometheus metric collection (based off dashboard 10876)
 
 <img width="960" alt="Image" src="https://github.com/user-attachments/assets/d068cc8f-4e6e-4af3-9fe7-9715089415b8" />
 
@@ -18,12 +18,10 @@ Some custom dashboards created for various purposes. Rather than reinventing the
 
 ![Image](https://github.com/user-attachments/assets/9c3ec749-0b6b-41be-afe3-28bfcfbda0b7)
 
+- **Teltonika Dashboard** (*Prometheus with snmp-exporter*): Monitors CPU, load, signal and traffic on a Teltonika RUT950 4G WiFi router (based off dashboard 20004)
 
-<!-- | Name | Grafana ID | Data source | Description |
-| ---- | ---------- | ----------- | ----------- |
-| Network Monitoring | N/A | Influxdb (telegraf plugins) | Monitors HTTP requests, DNS queries and ICMP (RTT, latency, packet loss) | 
-| Server (phone) Monitoring | 1860 | Prometheus (node-exporter) | Monitors oneplus phone running pmOS, includes battery, CPU, Memory, Disk and networking |
-| K3s Node Monitoring | 8171 | Prometheus | Monitors CPU, load, Memory, disk and networking of K3s nodes |
-| K3s Pod Monitoring | 19972 | Prometheus (cAdvisor) | Monitors CPU, memory, networking and processes for all and indivdual K3s pods |
-| Prometheus Scraping | 10876 | Prometheus | Scrape instances and times for troubleshooting prometheus metric collection | 
-| Teltonika Dashboard | 20004 | Prometheus (snmp-exporter) | Monitors CPU, load, signal and traffic for Teltonika RUT950 4G WiFi router | -->
+IMAGE
+
+- **Victron Dashboard** (*Influxdb with telegraf plugins*): Uses Victron Cerbo GX to monitor MPPT solar, Multiplus charger & inverter, DC usage, batteries, fuel & water tanks and Ruuvi temperature sensors (based off dashboard 14400)
+
+IMAGE
