@@ -18,5 +18,4 @@ Some custom dashboards created for various purposes. Rather than reinventing the
   <img width="960" alt="Image" src="https://github.com/user-attachments/assets/89be4789-8fd0-4826-909b-2c8904c05ea0" />
 
 - **Victron Dashboard** (*Influxdb with telegraf plugins*): Uses Victron Cerbo GX to monitor MPPT solar, Multiplus charger & inverter, DC usage, batteries, fuel & water tanks and Ruuvi temperature sensors (based off dashboard 14400)
-
-IMAGE
+  ![Image](https://github.com/user-attachments/assets/2fd5f8a3-0f54-4a71-a14b-0ab890b99ec6)
